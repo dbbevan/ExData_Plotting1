@@ -100,8 +100,7 @@ GAP.Data <- data.frame(
 # Create Plot with appropriate adornation and send to PNG
 dev.copy(png,'plot4.png')
   par(mfrow = c(2,2))
-  par(mfrow = c(2,2))
-  
+
   # Plot 4.a - Plot 2 Previous Example - Global Active Power (kilowatts)
   plot(GAP.Data$Datetime, GAP.Data$Global_active_power, type = "l", xlab = "", ylab = "Global Active Power")
   
